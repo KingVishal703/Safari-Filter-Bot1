@@ -41,7 +41,7 @@ home_template = """
 <body>
     <img src="https://graph.org/file/a97d39a6aa4a1317d430b.jpg" alt="Chatbot Image" class="chatbot-image">
 
-    <h1 class="chatbot-title">Safaribotts</h1>
+    <h1 class="chatbot-title">moviesking</h1>
 </body>
 </html>
 """
