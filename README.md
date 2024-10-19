@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/0404c85f392d80d67e61c-c21bdfca539f508eb3.jpg" alt="Movies-King-Bot Logo">
+  <img src="" alt="Movies-King-Bot Logo">
 </p>
 <h1 align="center">
   𝑺𝒂𝒇𝒂𝒓𝒊-𝑭𝒊𝒍𝒕𝒆𝒓-𝑩𝒐𝒕
