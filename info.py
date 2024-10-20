@@ -60,29 +60,29 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'sharedisklinks.com'))
-STREAM_API = (environ.get('STREAM_API', '587f94f0e0b1813a52aed61290af6ea79d6ee464'))
-STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Hoe/69'))
-STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
+STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
+STREAM_API = (environ.get('STREAM_API', '6DRRpJbz96ghKtCBgiORSGMnJ6H3'))
+STREAM_HTO = (environ.get('STREAMHTO', ''))
+STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 
 
 #verify site api and url
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'sharedisklinks.com')
-VERIFY_API = (environ.get('VERIFY_API', '587f94f0e0b1813a52aed61290af6ea79d6ee464'))
+VERIFY_URL = environ.get('VERIFY_URL', 'publicearn.com')
+VERIFY_API = (environ.get('VERIFY_API', '8cb42dcb724c2b970cc10b098132273359eaf0b8'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'sharedisklinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', '587f94f0e0b1813a52aed61290af6ea79d6ee464'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'shareus.io')
+VERIFY_API2 = (environ.get('VERIFY_API2', '6DRRpJbz96ghKtCBgiORSGMnJ6H3'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'sharedisklinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', '587f94f0e0b1813a52aed61290af6ea79d6ee464'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'moviesking.in.net')
+VERIFY_API3 = (environ.get('VERIFY_API3', 'df9cb224c37eae97806e3669744a7f9f6d5b0770'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/shdjekkw')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/hejejje')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/safabsovhwi3')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/')
+TUTORIAL2 = environ.get('TUTORIAL2', '')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/')
 
 
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
