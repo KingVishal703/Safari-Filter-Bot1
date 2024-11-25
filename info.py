@@ -69,14 +69,14 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'publicearn.com')
+VERIFY_URL = environ.get('VERIFY_URL', 'publicearn.in')
 VERIFY_API = (environ.get('VERIFY_API', '8cb42dcb724c2b970cc10b098132273359eaf0b8'))
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "900"))
 VERIFY_URL2 = environ.get('VERIFY_URL2', 'shareus.io')
 VERIFY_API2 = (environ.get('VERIFY_API2', '6DRRpJbz96ghKtCBgiORSGMnJ6H3'))
  
-THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
+THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "43200"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'moviesking.in.net')
 VERIFY_API3 = (environ.get('VERIFY_API3', 'df9cb224c37eae97806e3669744a7f9f6d5b0770'))
  
