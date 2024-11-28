@@ -69,20 +69,20 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'publicearn.in')
-VERIFY_API = (environ.get('VERIFY_API', '8cb42dcb724c2b970cc10b098132273359eaf0b8'))
+VERIFY_URL = environ.get('VERIFY_URL', 'shortxlinks.com')
+VERIFY_API = (environ.get('VERIFY_API', 'c97dff111e4017c7a0d0f911d567536805cc34c5'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "900"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'shareus.io')
-VERIFY_API2 = (environ.get('VERIFY_API2', '6DRRpJbz96ghKtCBgiORSGMnJ6H3'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'omegalinks.in')
+VERIFY_API2 = (environ.get('VERIFY_API2', '0178e6bc620a16f5ffe5e210731a2c8a375b102f'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "43200"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'moviesking.in.net')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'df9cb224c37eae97806e3669744a7f9f6d5b0770'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'onepageyam.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', '63bab3b422718b82bc9fe7607c7e6935b07dac2c'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/')
-TUTORIAL2 = environ.get('TUTORIAL2', '')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movies_King_Update/259')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/How_To_Open_AllLinks/33')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/How_To_Open_AllLinks/26')
 
 
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
