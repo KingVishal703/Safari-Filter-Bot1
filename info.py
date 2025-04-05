@@ -63,7 +63,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
 STREAM_API = (environ.get('STREAM_API', '6DRRpJbz96ghKtCBgiORSGMnJ6H3'))
 STREAM_HTO = (environ.get('STREAMHTO', ''))
-STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
+STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
 
 #verify site api and url
